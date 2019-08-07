@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jekyll blog with Github Pages"
-date:   2019-08-06 16:39:35 -0700
+date:   2019-08-07 16:39:35 -0700
 categories: jekyll update
 ---
 
