@@ -25,8 +25,8 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-# theme: minima
-theme: hitchens-theme
+theme: minima
+# theme: hitchens-theme
 plugins:
   - jekyll-feed
 
