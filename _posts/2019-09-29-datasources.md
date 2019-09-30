@@ -2,7 +2,7 @@
 layout: post
 title:  "Finding Data"
 date:   2019-09-29 16:39:35 -0700
-categories: datasources
+categories: datascience
 ---
 
 Below are a few free-to-use data resources that I have found to be useful. 
