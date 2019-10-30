@@ -48,7 +48,7 @@ gem "jekyll-remote-theme"
 {% endhighlight %}
 
 
-Then run `build install` to install the gem.
+Then run `bundle install` to install the gem.
 <br> 
 <br>
 Make the following changes to your `_config.yml` file in your local blog repo
