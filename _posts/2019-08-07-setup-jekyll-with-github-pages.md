@@ -6,9 +6,11 @@ categories: jekyll update
 ---
 
 Here is how I went about setting up this blog using Jekyll and Github Pages. Note that the setup assumes MacOS. 
-
-### 1. **Setup Jekyll on your local machine**
-
+\\
+\\
+1\. **Setup Jekyll on your local machine**
+\\
+\\
 Follow the simple instructions on the [Jekyll website](https://jekyllrb.com/), replacing my-awesome-site with an appropriate name for your blog folder. Copied below; run this on your terminal
 
 {% highlight terminal%}
@@ -18,13 +20,16 @@ $cd my-awesome-site
 $bundle exec jekyll serve
 # => Now browse to http://localhost:4000
 {% endhighlight %}
-
-### 2. **Set up a Github Pages repo**
-
+\\
+2\. **Set up a Github Pages repo**
+\\
+\\
 Create a new repository on Github [here](https://github.com/new) called username.github.io where username is your Github username. Note that the username in your repo name has to match your Github username. 
-
-### 3. **Set up your local git repo to link to your Github repo**
-
+\\
+\\
+3\. **Set up your local git repo to link to your Github repo**
+\\
+\\
 On your local machine, go to your blog folder (`my-awesome-site` in this example), and do the following
 
 {% highlight terminal %}
@@ -34,9 +39,11 @@ username.github.io.git
 {% endhighlight %}
 
 The above will initialize your blog folder as a git repo and link it to the Github repo you created in step 2. Replace username in the remote repo url with your Github username.
-
-### 4. **Update gemfile and config.yaml to reflect the desired theme**
-
+\\
+\\
+4\. **Update gemfile and config.yaml to reflect the desired theme**
+\\
+\\
 For your blog to show up properly on Github pages, you need to make the following changes:
 <br>
 <br>
@@ -59,9 +66,11 @@ remote_theme: patdryburgh/hitchens
 {% endhighlight %}
 
 Note that for Github pages to apply the theme, you need to specify it as a remote theme rather than simply update theme to `theme: <your chosen theme>`. Also change the title, description and other sections as needed. 
-
-### 5. **Push your changes to Github**
-
+\\
+\\
+5\. **Push your changes to Github**
+\\
+\\
 Run the following lines on your terminal to add, commit and push changes on your local repo to Github.
 
 {% highlight terminal %}
