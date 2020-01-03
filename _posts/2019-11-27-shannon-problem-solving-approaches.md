@@ -21,7 +21,7 @@ Find similar questions with answers, and deduce common patterns in the answers, 
 \\
 3\. **Restate the question**
 
->"Change the viewpoont.. Break loose from certain mental blocks which are holding you in certain ways of looking at a problem"
+>"Change the viewpoint. Break loose from certain mental blocks which are holding you in certain ways of looking at a problem"
 
 \\
 4\. **Structural analysis of the problem**
