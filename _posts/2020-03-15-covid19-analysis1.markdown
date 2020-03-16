@@ -7,7 +7,7 @@ categories: covid19
 
 Using [data][jhu-data] from the github repo that powers the [JHU Covid-19 dashboard](), I decided to try a few prediction exercises on expected number of COVID-19 cases in the US. An inspiration for the forecasts was a [Reddit post][red-covid19] comparing of Covid cases in Italy, US and California after setting them to a common starting baseline. I have included 2 additional countries - Iran and South Korea - and used the [prophet][prophet] package to make predictions. 
 
-Before getting into the prediction, it helps to compare what the cases look like by some of the countries with the highest incidence of reported cases. I have excluded China for now since it has been well tracked in the [JHU dashboard][jhu-dash], and is past the point where new cases are increasing at a faster pace than recoveries. 
+Before getting into the prediction, it helps to compare what the cases look like by some of the countries with the highest incidence of reported cases. I have excluded China for now since it has been well tracked in the [JHU dashboard][jhu-dash], and is well into recovery mode. 
 
 Looking at the cumulative number of confirmed cases for the top 4 countries (excluding China), we observe a ramp-up in confirmed cases from South Korea around the end of Feb. By March 10, Italy and Iran have overtaken it, and it is currently set to fall below Spain over the next few days. We also see Italy and Iran keeping pace until March 7, at which point the number of cases in Italy takes off. 
 
