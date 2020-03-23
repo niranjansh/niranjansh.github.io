@@ -8,7 +8,7 @@ categories: covid19
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-In the movie Contagion (2011), Dr. Erin Mears (played by Kate Winslet), an [Epidemic Intelligence Service (EIS)][eis] officer with the CDC, provided a brief but clear explanation of $$R_0$$ in under 2 minutes. This post is a deeper dive into this number and related concepts that have resurfaced again due to COVID-19. 
+In the movie Contagion (2011), Dr. Erin Mears (played by Kate Winslet), an [Epidemic Intelligence Service (EIS)][eis] officer with the CDC, provides a brief but clear explanation of $$R_0$$ in under 2 minutes. This post is a deeper dive into this number and related concepts that have resurfaced again due to COVID-19. 
 
 The **basic reporduction number ($$R_0$$)**, pronounced R-naught, of a disease is the number of people that are expected to get the disease from one contagious person. [$$R_0$$ for measles][r0_measles] ranges from 12 to 18, which means that each person with measles could on average infect 12-18 others in a population that is completely susceptible. The 1918 Influenza epidemic had an [$$R_0$$][r0_influenza] of 1.2-1.6. Preliminary [estimates for COVID-19][r0_covid19] put the $$R_0$$ estimates at between 2.06 and 2.52. $$R_0$$ depends on a number of factors, one of which is population density. For the [2009 H1N1 pandemic][r0_h1n1], $$R_0$$ in schools ranged from 2.8 to 16.9 compared to 1.2-2.4 in community settings. 
 
