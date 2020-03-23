@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "R0, vaccination threshold, and herd immunity"
+date:   2020-03-22 20:30:50 
 categories: covid19
 ---
 
