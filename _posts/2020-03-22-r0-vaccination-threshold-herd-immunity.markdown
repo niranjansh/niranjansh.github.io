@@ -38,7 +38,7 @@ Therefore the number of infected cases increases if $$P_{contact}.P_{spread} \ge
 
 $$R_0 = \frac{P_{contact}.P_{spread}}{P_{recover}}$$
 
-then, if $$R_0$$ < 1 then the disease will recede and disappear over time, however if $$R_0 > 1$$ then the disease is likely to spread to an increasing number of people over time. 
+then, if $$R_0 > 1$$ then the disease is likely to spread to an increasing number of people over time, while if $$R_0 < 1$$ then the disease will recede over time.  
 
 The implications of this are important. In the absence of any vaccination, the above model suggests that the way to reduce spread is to reduce the contact probability $$P_{contact}$$ which in the case of COVID-19 can be achieved through measures such as social distancing, and to reduce the spread probability $$P_{spread}$$ given contact, achieved through measures such as sneezing into one's elbow instead of one's hands, and washing hands thoroughly. 
 
