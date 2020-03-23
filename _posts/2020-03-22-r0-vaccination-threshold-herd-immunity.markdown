@@ -73,7 +73,7 @@ It follows from the above that if the at-risk population is vaccinated to the le
 [model_thinker]: https://www.basicbooks.com/titles/scott-e-page/the-model-thinker/9780465094639/
 [uk_herd_immunity]: https://www.theatlantic.com/health/archive/2020/03/coronavirus-pandemic-herd-immunity-uk-boris-johnson/608065/
 [scott_page]: https://sites.lsa.umich.edu/scottepage/bio/
-[eis]: https://www.cdc.gov/eis/index.html
+[eis]: https://www.cdc.gov/eis/what-eis-officers-do/index.html
 [george_box]: https://en.wikipedia.org/wiki/All_models_are_wrong
 
 
