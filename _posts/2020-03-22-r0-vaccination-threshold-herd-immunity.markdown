@@ -20,13 +20,13 @@ The factors that influence how quickly a disease spreads depends among others, o
 
 The **SIR (Susceptible, Infected, Recovered) model** is a simple model that uses the above probabilities to come up with an estimate of the number of people infected at a future time step ($$I_{t+1}$$) given the number of those infected at present ($$I_t$$)
 
-$$ I_{t+1}=I_t + P_{contact}.P_{spread}.\frac{I_t}{N_{POP}}.S_t - P_{recover}I_t$$
+$$ I_{t+1}=I_t + P_{contact}.P_{spread}.I_t.\frac{S_t}{N_{POP}} - P_{recover}I_t$$
 
-In the above model, $$N_{POP}$$ is the size of the relevant population i.e. people that can potentially catch the disease, and $$S_t$$ is the population of those susceptible at a given time instant $$t$$ i.e. the fraction of the population that has still not caught the disease.
+In the above model, $$N_{POP}$$ is the size of the relevant population i.e. people that can potentially catch the disease at the outset, and $$S_t$$ is the population of those susceptible at a given time instant $$t$$ 
 
 Let $$I_0$$ be the initial number of infected people. The number of those infected at time instant 1 is: 
 
-$$I_1 = I_0 + P_{contact}.P_{spread}.\frac{I_0}{N_{POP}}.S_0 - P_{recover}I_0$$
+$$I_1 = I_0 + P_{contact}.P_{spread}.I_0.\frac{S_0}{N_{POP}} - P_{recover}I_0$$
 
 Approximating $$S_0$$, the number of those susceptible at time 0 to be the population size $$N_{POP}$$, we have
 
