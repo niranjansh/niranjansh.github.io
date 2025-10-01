@@ -27,10 +27,18 @@ markdown: kramdown
 #theme: minima
 #theme: jekyll-theme-basically-basic
 #theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+#remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+# remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+# remote_theme: mmistakes/minimal-mistakes
+#remote_theme: "mmistakes/so-simple-theme@3.2.0"
+# remote_theme: nicoelayda/celeste
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+
+# remote_theme: ngzhio/jekyll-theme-hamilton
+remote_theme: daattali/beautiful-jekyll@6.0.1
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -43,3 +51,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# --- for beautiful-jekyll theme --
+navbar-links:
+  About Me: "about"

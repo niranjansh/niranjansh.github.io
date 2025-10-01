@@ -5,7 +5,7 @@ date:   2020-03-22 20:30:50
 categories: covid19
 ---
 
-In the movie Contagion (2011), Dr. Erin Mears (played by Kate Winslet), an [Epidemic Intelligence Service (EIS)][eis] officer with the CDC, provides a brief but clear explanation of $$R_0$$ in under 2 minutes. This post is a deeper dive into this number and related concepts that have resurfaced again due to COVID-19. 
+In the movie Contagion (2011), Dr. Erin Mears (played by Kate Winslet), an [Epidemic Intelligence Service (EIS)][eis] officer with the CDC, provides a brief but clear explanation of R0 in under 2 minutes. This post is a deeper dive into this number and related concepts that have resurfaced again due to COVID-19. 
 
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
@@ -35,7 +35,7 @@ $$I_1 =I_0 + P_{contact}.P_{spread}.I_0 - P_{recover}I_0$$
 
 $$    =I_0.(1+P_{contact}.P_{spread}-P_{recover})$$
 
-Therefore the number of infected cases increases if $$P_{contact}.P_{spread} \geq P_{recover}$$. In other words, if we define the **basic reporduction number ($$R_0$$)** as:
+Therefore the number of infected cases increases if $$P_{contact}.P_{spread} \geq P_{recover}$$. In other words, if we define the **basic reproduction number ($$R_0$$)** as:
 
 $$R_0 = \frac{P_{contact}.P_{spread}}{P_{recover}}$$
 
