@@ -18,9 +18,9 @@ project:
     - file: intro.md
     - title: Blog Posts
       children:
-        - title: "2026"
-          children:
-          - file: posts/2026/my-first-post
+      - title: "2026"
+        children:
+        - file: posts/2026/my-first-post
   # github:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 # site:
