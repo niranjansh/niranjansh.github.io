@@ -1,0 +1,28 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+
+site:
+  title: Niranjan Shetty
+  template: book-theme
+  options:
+    logo: images/ns.png
+    hide_all_footer_links: true
+
+project:
+  id: 8851d67b-f65b-4ee2-a93c-531f45db5b57
+  title: Niranjan Shetty
+  # description:
+  # keywords: []
+  # Either remove authors or make it a proper list, e.g.:
+  # authors:
+  #   - name: Niranjan Shetty
+
+  toc:
+    - file: intro.md
+      title: My Data Science Blog
+    - title: Blog Posts
+      children:
+        - title: "2025"
+          children:
+            - file: posts/2025/my-first-post.md
+            - file: posts/2025/markov_models.ipynb
