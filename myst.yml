@@ -25,5 +25,5 @@ project:
       children:
         - title: "2025"
           children:
-            - file: posts/2025/my-first-post.md
             - file: posts/2025/markov_models.ipynb
+            - file: posts/2025/my-first-post.md
