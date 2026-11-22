@@ -39,6 +39,14 @@ jobs:
         run: npm install -g jupyter-book
       - name: Build HTML Assets
         run: jupyter-book build --html
+      - name: Set public sitemap URLs
+        run: |
+          sed -i \
+            -e 's|http://localhost:3000|https://niranjanshetty.com|g' \
+            -e 's|<loc>https://niranjanshetty\.com\([^<]*[^/<]\)\?</loc>|<loc>https://niranjanshetty.com\1/</loc>|g' \
+            _build/html/sitemap.xml
+          sed -i 's|http://localhost:3000|https://niranjanshetty.com|g' \
+            _build/html/robots.txt
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
